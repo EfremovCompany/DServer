@@ -68,7 +68,7 @@ func foo(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	} else {*/
-	profile := Profile{200, "0"}
+	profile := Profile{201, "0"}
 
 	js, err := json.Marshal(profile)
 	if err != nil {
